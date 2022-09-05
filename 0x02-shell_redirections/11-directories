@@ -1,2 +1,2 @@
 i#!/bin/bashi
-find .  -type f -name "*.js" -delete
+find . -type d -not -name . | wc -l
